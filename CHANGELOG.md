@@ -1,3 +1,27 @@
+## OpenixSuit v0.3.4
+
+### Changes
+- chore: update adb_client submodule to latest commit (a157979)
+- fix win fs (7aaa1ee)
+- feat(themes): add new theme configurations and rename atom-one (55e657b)
+- feat: add ADB module export to Library index (f398d6e)
+- feat(themes): add arduino theme and light variants for dracula and atom-one (78f36d8)
+- feat(editor): add support for dynamic theme switching in monaco editor (a4021dd)
+- fix(settingsStore): prevent race conditions in settings save operations (38e5240)
+- feat(theme): add theme translations and improve theme handling (294422c)
+- chore: bump version to 0.3.4 and remove unused theme settings (d8aae72)
+- feat(themes): add yuzuki theme and remove OwO variant from catppuccin (9ec401d)
+- feat(theme): add derived colors and refactor CSS to use theme variables (496e0ae)
+- feat(themes): improve theme handling and add new light variant (e17c461)
+- feat(themes): restructure theme configuration and add new themes (c96f8f7)
+- feat(themes): add theme system with light and dark modes (11a92b4)
+- refactor(utils): consolidate utility functions into dedicated modules (b06a28f)
+- feat(updater): enhance update progress display with download details (4247159)
+- feat(image-loader): handle encrypted images and improve error reporting (c20e127)
+- refactor(adb): update import paths from 'Adb' to 'ADB' (dbd005a)
+- refactor(FirmwareLoader): simplify DTB handling and parsing (2a258aa)
+- refactor: optimize tauri api imports for better performance (88e7945)
+
 ## OpenixSuit v0.3.3
 
 ### Changes
