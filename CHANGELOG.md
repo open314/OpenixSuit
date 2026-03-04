@@ -1,3 +1,14 @@
+## OpenixSuit v0.3.5
+
+### Changes
+- chore: bump version to 0.3.5 and add developer tools translations (7dccda1)
+- feat(developer): add devtools support in settings (95e514d)
+- style(FirmwareDownloader): simplify current partition readonly styling (b004987)
+- refactor(partitionEditorUtils): remove redundant file filter options (ae5915b)
+- refactor(GenericFlash): remove file filters and boot image release (756ab41)
+- feat(ADB): add timeout to device listing to prevent hanging (fc5590d)
+- style(ADBExplorer): adjust icon brightness for light theme (798f5de)
+
 ## OpenixSuit v0.3.4
 
 ### Changes
