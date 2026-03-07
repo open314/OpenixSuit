@@ -1,3 +1,26 @@
+## OpenixSuit v0.3.8
+
+### Changes
+- chore: bump version to 0.3.8 and remove unused README (de412b1)
+- feat(capabilities): expand file access permissions for home directory (a7c2d66)
+- refactor(hooks): add missing dependencies and eslint-disable comments (86ab66a)
+- fix: add eslint-disable comments and improve error handling (99c63f9)
+- chore: add eslint and prettier configuration (9ddd60b)
+- feat(FirmwarePacker): reorder tools list and add defaultFlashType to sdcard_converter (2221879)
+- refactor(diskpart): simplify if conditions and use div_ceil for alignment (7721011)
+- refactor: improve code formatting and error handling (af47265)
+- refactor(packer): improve logging messages with sector info (8096b5a)
+- style(FirmwarePacker): fix indentation in tools list rendering (b4942d7)
+- feat(FlashManager): add completion handling for external working state (e003903)
+- feat(image): add sparse image support for firmware loading (1e3936d)
+- style(FirmwarePacker): improve css selector specificity for form labels (eb2e7dd)
+- feat(gpt): add header module with GPT header manipulation (7626da4)
+- feat(firmware-packer): add storage size configuration for GPT adjustment (363ed2d)
+- feat(i18n): add english translations for firmware packer and generic flash (c2dadba)
+- refactor(packer): improve firmware merging with progress tracking and streaming (bcaf788)
+- feat(firmware-packer): add block device converter for eMMC/UFS/SD formats (b89fadd)
+- feat(firmware-packer): add SPI NOR firmware converter tool (99e7d49)
+
 ## OpenixSuit v0.3.7
 
 ### Changes
