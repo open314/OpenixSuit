@@ -1,3 +1,21 @@
+## OpenixSuit v0.3.9
+
+### Changes
+- chore: bump version to 0.3.9 (634766a)
+- refactor(GPIO): clean up code and fix linting issues (1b08376)
+- refactor: improve code formatting and consistency across multiple files (881a8fa)
+- refactor(GPIO): simplify register offset handling and improve progress tracking (e6ec621)
+- feat(gpio-viewer): implement GPIO viewer component with device management and pin control (a54f51b)
+- style(FirmwareDownloader): decrease font size for progress stage text (ec086a4)
+- feat(gpio-viewer): add multi-pin editing and chip support improvements (fb04048)
+- feat(GPIOViewer): refactor pin configuration with inline editing (6404902)
+- feat(GPIOViewer): add GPIO viewer component with pin configuration (9001bcd)
+- refactor(fs): simplify file system permissions configuration (177f11d)
+- refactor(capabilities): reorganize fs permission identifiers (f8fb597)
+- fix(hotplug): improve error handling and fallback mechanism (e38a8da)
+- refactor(capabilities): simplify file system access permissions (c643173)
+- refactor(proxy): conditionally import warn on windows only (005f5f3)
+
 ## OpenixSuit v0.3.8
 
 ### Changes
