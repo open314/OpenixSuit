@@ -115,6 +115,17 @@ ADB file explorer for browsing and managing files on Android devices connected v
 - Properties viewer
 - Clipboard support
 
+### GPIO Viewer
+
+View and modify your chip GPIO real config by reading info from reg.
+
+<img width="1282" height="912" alt="image" src="https://github.com/user-attachments/assets/209e4fab-ee6f-49cc-8227-bcc373e45d6d" />
+
+**Features:**
+- View GPIO Status
+- Configure GPIO
+- Support MUX, PULL, DRV, and so on.
+
 ## Supported Devices
 
 OpenixSuit supports Sunxi SoCs in FEL/FES mode, including:
