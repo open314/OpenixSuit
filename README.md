@@ -6,6 +6,10 @@
 
 <img width="1282" height="912" alt="image" src="https://github.com/user-attachments/assets/e193f6a5-51a8-474d-97a9-bf7173966edd" />
 
+## Downloads
+
+Downloads OpenixSuit from [Release](https://github.com/YuzukiTsuru/OpenixSuit/releases) Pages
+
 ## Features
 
 - **Firmware Flashing**: Flash Sunxi format firmware images to development boards
@@ -19,6 +23,7 @@
 - **Firmware Analysis**: Parse and view firmware image contents
 - **EFEL Debug Tools**: Low-level FEL mode debugging utilities
 - **Firmware Format Convert**: Firmware packing and conversion tool.
+- Powered by [OpenixWidgets](https://github.com/YuzukiTsuru/OpenixWidgets)
 
 ## Components Overview
 
