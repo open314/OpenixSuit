@@ -1,3 +1,26 @@
+## OpenixSuit v0.3.13
+
+### Changes
+- ci: add xdg-utils to ubuntu build dependencies (e32353f)
+- build(tauri): add linux package dependencies configuration (a9e3dcb)
+- chore: update libefex submodule to latest commit (1ae085a)
+- chore: update libefex submodule to latest commit (f0a466d)
+- chore: update libefex submodule to latest commit (1f9878d)
+- ci: add ubuntu-24.04-arm support and update ubuntu dependencies (8262c58)
+- chore: update libefex submodule to latest commit (cb66da0)
+- refactor(spinor_convert): simplify error handling and formatting (6bd1397)
+- ci: update submodules checkout to recursive in workflows (3e2d85c)
+- chore: bump version to 0.3.13 and add norSize translation (22ff121)
+- style(themes): adjust success color in catppuccin theme (4cb2724)
+- style(Themes): update success color in openix theme (4904cd7)
+- feat(firmware-packer): add nor size configuration for spinor conversion (e1156c7)
+- fix: change default tool mode to 'reboot' for device next mode (45ac759)
+- ci: add i18n locales sync step to release workflow (f89da03)
+- feat(flash): add timeout handling for reboot efex command (bf085d7)
+- build(android): add generated Android project files and resources (a408f32)
+- chore: update libefex subproject commit (c4fc518)
+- fix(init): generate fake libusb-1.0.dll when missing (5bdf866)
+
 ## OpenixSuit v0.3.12
 
 ### Changes
