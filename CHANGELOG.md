@@ -1,3 +1,20 @@
+## OpenixSuit v0.3.14
+
+### Changes
+- chore: bump version to 0.3.14 (1fa1ae5)
+- style: fix formatting and add missing newlines in files (78407e9)
+- feat(GPIO): add bank offset hook and improve register handling (b519716)
+- fix(GPIOViewer): prevent duplicate device selection and scanning (67d3a55)
+- feat(ui): add animation effects to UI components (8b76f60)
+- fix(chips): update register base values and add T527 chip mark (d3e784a)
+- refactor(components): optimize component activation logic (3acbdad)
+- fix(ADBHandler): increase timeout for reboot efex to 10s (30d0afb)
+- feat(adb): add folder pull functionality (b0d0f69)
+- feat(i18n): add new error message for firmware reload failure (21e39b4)
+- feat(popup): add confirm dialog type and storage mismatch handling (401aa02)
+- feat(FirmwareDownloader): add firmware reload after flashing (3fec3a5)
+- fix(adb): correct method name for pulling folder (e091b4d)
+
 ## OpenixSuit v0.3.13
 
 ### Changes
