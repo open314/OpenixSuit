@@ -655,6 +655,7 @@
     "encryptedImage": "Unsupported image format or encrypted image",
     "errors": {
       "deviceNotReady": "Device not ready",
+      "reloadFirmwareFailed": "Failed to reload firmware",
       "selectDeviceFirst": "Please select a device first",
       "selectFirmwareFirst": "Please select a firmware file first"
     },
@@ -710,6 +711,8 @@
       "skipPartitionNotInList": "Skipping partition (not in selection list): {{name}}",
       "skipUserDataPartition": "Skipping user data partition: {{name}}",
       "storageMismatch": "Firmware storage type is {{firmware}}, but device storage type is {{device}}, cannot flash",
+      "storageMismatchConfirm": "{{warning}}\n\nThe firmware's sys_config.fex may be incorrectly configured. Continue flashing?",
+      "storageMismatchContinuing": "User confirmed to continue flashing, ignoring storage type mismatch",
       "storageMismatchDeviceSpinor": "Device is SPI NOR type, but firmware storage type is {{firmware}}, cannot flash",
       "storageMismatchFirmwareSpinor": "Firmware is SPI NOR type, but device storage type is {{device}}, cannot flash",
       "storageMismatchTitle": "Storage Type Mismatch",

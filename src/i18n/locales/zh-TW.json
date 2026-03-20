@@ -647,6 +647,7 @@
     "encryptedImage": "不支援的映像格式或映像已加密",
     "errors": {
       "deviceNotReady": "裝置未就緒",
+      "reloadFirmwareFailed": "重新載入韌體失敗",
       "selectDeviceFirst": "請先選擇裝置",
       "selectFirmwareFirst": "請先選擇韌體檔案"
     },
@@ -700,6 +701,8 @@
       "skipPartitionNotInList": "跳過分割區 (不在選擇列表中): {{name}}",
       "skipUserDataPartition": "跳過使用者資料分割區: {{name}}",
       "storageMismatch": "韌體儲存類型為 {{firmware}}，但裝置儲存類型為 {{device}}，無法燒錄",
+      "storageMismatchConfirm": "{{warning}}\n這可能是韌體的 <code>sys_config.fex</code> 的 <code>storage_type</code> 欄位設定有誤導致的誤判，您可以選擇繼續燒錄。\n\n是否繼續燒錄？",
+      "storageMismatchContinuing": "使用者確認繼續燒錄，忽略儲存類型不匹配",
       "storageMismatchDeviceSpinor": "裝置為 SPI NOR 類型，但韌體儲存類型為 {{firmware}}，無法燒錄",
       "storageMismatchFirmwareSpinor": "韌體為 SPI NOR 類型，但裝置儲存類型為 {{device}}，無法燒錄",
       "storageMismatchTitle": "儲存類型不匹配",

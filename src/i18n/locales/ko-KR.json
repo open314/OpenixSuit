@@ -647,6 +647,7 @@
     "encryptedImage": "지원되지 않는 이미지 형식 또는 암호화된 이미지",
     "errors": {
       "deviceNotReady": "장치가 준비되지 않음",
+      "reloadFirmwareFailed": "펌웨어 다시 로드 실패",
       "selectDeviceFirst": "먼저 장치를 선택하세요",
       "selectFirmwareFirst": "먼저 펌웨어 파일을 선택하세요"
     },
@@ -700,6 +701,8 @@
       "skipPartitionNotInList": "파티션 건너뜀 (선택 목록에 없음): {{name}}",
       "skipUserDataPartition": "사용자 데이터 파티션 건너뜀: {{name}}",
       "storageMismatch": "펌웨어 저장소 유형은 {{firmware}}이지만 장치 저장소 유형은 {{device}}, 플래시할 수 없음",
+      "storageMismatchConfirm": "{{warning}}\n이것은 펌웨어의 <code>sys_config.fex</code>의 <code>storage_type</code> 필드 설정 오류로 인한 오판일 수 있습니다. 계속 플래시할 수 있습니다.\n\n계속 플래시하시겠습니까?",
+      "storageMismatchContinuing": "사용자가 계속 플래시 확인, 저장소 유형 불일치 무시",
       "storageMismatchDeviceSpinor": "장치는 SPI NOR 유형이지만 펌웨어 저장소 유형은 {{firmware}}, 플래시할 수 없음",
       "storageMismatchFirmwareSpinor": "펌웨어는 SPI NOR 유형이지만 장치 저장소 유형은 {{device}}, 플래시할 수 없음",
       "storageMismatchTitle": "저장소 유형 불일치",

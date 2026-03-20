@@ -647,6 +647,7 @@
     "encryptedImage": "サポートされていないイメージ形式または暗号化されたイメージ",
     "errors": {
       "deviceNotReady": "デバイスが準備できていません",
+      "reloadFirmwareFailed": "ファームウェアの再読み込みに失敗しました",
       "selectDeviceFirst": "先にデバイスを選択してください",
       "selectFirmwareFirst": "先にファームウェアファイルを選択してください"
     },
@@ -700,6 +701,8 @@
       "skipPartitionNotInList": "パーティションをスキップ (選択リストにありません): {{name}}",
       "skipUserDataPartition": "ユーザーデータパーティションをスキップ: {{name}}",
       "storageMismatch": "ファームウェアストレージタイプは {{firmware}} ですが、デバイスストレージタイプは {{device}} です。書き込みできません",
+      "storageMismatchConfirm": "{{warning}}\nこれはファームウェアの <code>sys_config.fex</code> の <code>storage_type</code> フィールドの設定ミスによる誤判定の可能性があります。書き込みを続行できます。\n\n書き込みを続行しますか？",
+      "storageMismatchContinuing": "ユーザーが書き込みの続行を確認、ストレージタイプの不一致を無視",
       "storageMismatchDeviceSpinor": "デバイスは SPI NOR タイプですが、ファームウェアストレージタイプは {{firmware}} です。書き込みできません",
       "storageMismatchFirmwareSpinor": "ファームウェアは SPI NOR タイプですが、デバイスストレージタイプは {{device}} です。書き込みできません",
       "storageMismatchTitle": "ストレージタイプが一致しません",

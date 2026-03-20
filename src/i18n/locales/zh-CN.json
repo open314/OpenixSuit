@@ -647,6 +647,7 @@
     "encryptedImage": "不支持的镜像格式或镜像已加密",
     "errors": {
       "deviceNotReady": "设备未就绪",
+      "reloadFirmwareFailed": "重新加载固件失败",
       "selectDeviceFirst": "请先选择设备",
       "selectFirmwareFirst": "请先选择固件文件"
     },
@@ -700,6 +701,8 @@
       "skipPartitionNotInList": "跳过分区 (不在选择列表中): {{name}}",
       "skipUserDataPartition": "跳过用户数据分区: {{name}}",
       "storageMismatch": "固件存储类型为 {{firmware}}, 但设备存储类型为 {{device}}, 无法烧录",
+      "storageMismatchConfirm": "{{warning}}\n这可能是固件的 <code>sys_config.fex</code> 的 <code>storage_type</code> 字段配置有误导致的误判，您可以选择继续烧录。\n\n是否继续烧录？",
+      "storageMismatchContinuing": "用户确认继续烧录，忽略存储类型不匹配",
       "storageMismatchDeviceSpinor": "设备为 SPI NOR 类型, 但固件存储类型为 {{firmware}}, 无法烧录",
       "storageMismatchFirmwareSpinor": "固件为 SPI NOR 类型, 但设备存储类型为 {{device}}, 无法烧录",
       "storageMismatchTitle": "存储类型不匹配",
