@@ -1,3 +1,11 @@
+## OpenixSuit v0.3.15
+
+### Changes
+- feat(i18n): add new translation keys for file manager views (f14cf69)
+- docs(download-links): update download links format and add new platforms (8166128)
+- feat(ADBExplorer): add list view mode for file browsing (828bf0a)
+- chore(android): remove round and foreground launcher icons (bc95526)
+
 ## OpenixSuit v0.3.14
 
 ### Changes
