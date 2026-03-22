@@ -21,7 +21,7 @@
       "open": "打开失败",
       "paste": "粘贴失败",
       "rename": "重命名失败",
-      "root": "获取Root权限失败",
+      "root": "获取 Root 权限失败",
       "save": "保存失败",
       "upload": "上传失败"
     },
@@ -42,7 +42,7 @@
     "name": "名称",
     "newFolder": "新建文件夹",
     "noDevice": "无设备",
-    "noDeviceSelected": "请先选择一个ADB设备",
+    "noDeviceSelected": "请先选择一个 ADB 设备",
     "open": "打开",
     "openFolder": "打开文件夹",
     "paste": "粘贴",
@@ -56,9 +56,9 @@
     "selectFile": "选择文件",
     "selectFolder": "选择文件夹",
     "serverNotRunning": {
-      "description": "请确保ADB服务器正在运行，或手动启动ADB服务",
+      "description": "请确保 ADB 服务器正在运行，或手动启动 ADB 服务",
       "retry": "重试",
-      "title": "ADB服务器未运行"
+      "title": "ADB 服务器未运行"
     },
     "size": "大小",
     "type": "类型",
@@ -161,7 +161,7 @@
       "transferring": "正在传输 U-Boot",
       "transferringBoardConfig": "正在传输板级设备配置",
       "ubootInfo": "U-Boot magic: {{magic}}, run_addr: {{addr}}",
-      "workModeInfo": "Work mode: {{mode}}, Storage type: {{storage}}"
+      "workModeInfo": "工作模式: {{mode}}, 存储类型: {{storage}}"
     },
     "initDRAM": {
       "complete": "DRAM 初始化完成",
@@ -209,7 +209,7 @@
     "initMemory": {
       "imageFile": "镜像文件",
       "running": "执行中...",
-      "selectImagePlaceholder": "选择img/bin文件...",
+      "selectImagePlaceholder": "选择 img/bin 文件...",
       "title": "初始化内存"
     },
     "log": {
@@ -303,7 +303,7 @@
       "title": "设备忙"
     },
     "deviceNotFound": {
-      "message": "未检测到设备。\n\n请确认: \n1. 设备已通过USB连接到电脑\n2. 设备已进入FEL模式(通常需要按住特定按键上电)\n3. USB线缆连接正常",
+      "message": "未检测到设备。\n\n请确认: \n1. 设备已通过 USB 连接到电脑\n2. 设备已进入 FEL 模式(通常需要按住特定按键上电)\n3. USB 线缆连接正常",
       "title": "未找到设备"
     },
     "deviceNotReady": {
@@ -311,7 +311,7 @@
       "title": "设备未就绪"
     },
     "invalidDeviceMode": {
-      "message": "设备当前模式不支持此操作。\n\n请确保设备处于正确的模式(FEL或FES模式)。",
+      "message": "设备当前模式不支持此操作。\n\n请确保设备处于正确的模式 (FEL 或 FES 模式)。",
       "title": "设备模式错误"
     },
     "timeout": {
@@ -323,24 +323,24 @@
       "title": "未知错误"
     },
     "usbError": {
-      "message": "USB通信错误: {{error}}\n\n可能的解决方案: \n1. 检查USB连接\n2. 更换USB驱动类型\n3. 重新插拔设备",
-      "title": "USB错误"
+      "message": "USB 通信错误: {{error}}\n\n可能的解决方案: \n1. 检查 USB 连接\n2. 更换 USB 驱动类型\n3. 重新插拔设备",
+      "title": "USB 错误"
     },
     "usbInit": {
-      "message": "无法初始化USB驱动。可能由于驱动不匹配或未安装驱动\n\n可能的解决方案: \n1. 检查USB驱动是否正确安装\n2. 尝试更换USB驱动类型(设置 → 设备设置 → USB驱动)\n3. 重新插拔USB设备\n4. 重启应用程序",
-      "title": "USB初始化失败"
+      "message": "无法初始化USB驱动。可能由于驱动不匹配或未安装驱动\n\n可能的解决方案: \n1. 检查 USB 驱动是否正确安装\n2. 尝试更换 USB 驱动类型(设置 → 设备设置 → USB驱动)\n3. 重新插拔 USB 设备\n4. 重启应用程序",
+      "title": "USB 初始化失败"
     },
     "usbOpen": {
-      "message": "无法打开USB设备。\n\n可能的解决方案: \n1. 设备可能被其他程序占用,请关闭其他烧录工具\n2. 尝试更换USB驱动类型(设置 → 设备设置 → USB驱动)\n3. Windows用户: 如果使用libusb,请使用Zadig安装libusb驱动\n4. Windows用户: 如果使用WinUSB,请确保设备使用厂商驱动",
+      "message": "无法打开 USB 设备。\n\n可能的解决方案: \n1. 设备可能被其他程序占用,请关闭其他烧录工具\n2. 尝试更换 USB 驱动类型(设置 → 设备设置 → USB 驱动)\n3. Windows 用户: 如果使用 libusb,请使用 Zadig 安装 libusb 驱动\n4. Windows 用户: 如果使用 WinUSB,请确保设备使用厂商驱动",
       "title": "无法打开设备"
     },
     "usbTimeout": {
-      "message": "USB通信超时。\n\n可能的解决方案: \n1. 设备可能未正确响应,请重置设备\n2. 检查USB连接是否稳定\n3. 尝试重新进入FEL模式",
-      "title": "USB通信超时"
+      "message": "USB 通信超时。\n\n可能的解决方案: \n1. 设备可能未正确响应,请重置设备\n2. 检查 USB 连接是否稳定\n3. 尝试重新进入 FEL 模式",
+      "title": "USB 通信超时"
     },
     "usbTransfer": {
-      "message": "USB数据传输失败。\n\n可能的解决方案: \n1. 更换USB端口(建议使用主板直连的USB口)\n2. 更换USB线缆\n3. 避免使用USB集线器\n4. 检查设备供电是否充足",
-      "title": "USB传输失败"
+      "message": "USB 数据传输失败。\n\n可能的解决方案: \n1. 更换 USB 端口(建议使用主板直连的 USB 口)\n2. 更换 USB 线缆\n3. 避免使用 USB 集线器\n4. 检查设备供电是否充足",
+      "title": "USB 传输失败"
     }
   },
   "firmwareDownloader": {
@@ -672,7 +672,7 @@
       "notSwitchedYet": "设备还未切换到 FES 模式 ({{retry}}/{{max}}), 等待 1 秒后重试...",
       "preparingFlash": "FES 模式: 准备烧录...",
       "reconnectFailed": "设备重新连接失败, 无法切换到 FES 模式",
-      "reconnectFailedDetails": "可能的原因:\n1. 板子连接丢失\n2. 板子存储初始化失败\n3. 板子卡死\n4. 虚拟机未重新绑定USB\n\n请连接串口，查看串口日志获取详细信息",
+      "reconnectFailedDetails": "可能的原因:\n1. 板子连接丢失\n2. 板子存储初始化失败\n3. 板子卡死\n4. 虚拟机未重新绑定 USB\n\n请连接串口，查看串口日志获取详细信息",
       "switchedToFes": "设备已切换到 FES 模式",
       "sysconfigFound": "找到系统配置程序, 大小: {{size}} bytes",
       "sysconfigNotFound": "镜像文件中未找到系统配置程序 SYS_CONFIG_BIN00",
@@ -913,22 +913,22 @@
   },
   "imageData": {
     "board_config": "板级配置文件二进制格式",
-    "boot0_card": "卡启动BOOT0",
-    "boot0_nor": "SPI NOR启动BOOT0",
-    "bootpkg": "常规介质BOOTPACKAGE",
-    "bootpkg_nor": "SPI NOR启动BOOTPACKAGE",
+    "boot0_card": "卡启动 BOOT0",
+    "boot0_nor": "SPI NOR 启动 BOOT0",
+    "bootpkg": "常规介质 BOOTPACKAGE",
+    "bootpkg_nor": "SPI NOR 启动 BOOTPACKAGE",
     "card_plugin": "卡烧录插件",
     "card_script": "卡量产配置文件",
     "dtb": "独立内核设备树",
-    "fes": "DDR初始化BIN",
-    "gpt": "GPT分区表",
-    "mbr": "MBR分区表",
-    "pc_plugin": "PC烧录插件",
-    "sys_config": "SYS CONFIG配置文件",
-    "sys_config_bin": "SYS CONFIG配置二进制",
+    "fes": "DDR 初始化 BIN",
+    "gpt": "GPT 分区表",
+    "mbr": "MBR 分区表",
+    "pc_plugin": "PC 烧录插件",
+    "sys_config": "SYS CONFIG 配置文件",
+    "sys_config_bin": "SYS CONFIG 配置二进制",
     "sys_partition": "分区表",
-    "uboot": "烧录使用的U-Boot",
-    "uboot_crash": "崩溃转储使用的U-Boot"
+    "uboot": "烧录使用的 U-Boot",
+    "uboot_crash": "崩溃转储使用的 U-Boot"
   },
   "imageLoader": {
     "encrypted": "不支持的镜像格式或镜像已加密",
@@ -956,17 +956,17 @@
       "noDevice": "未发现设备",
       "title": "设备列表"
     },
-    "exportFailed": "导出MBR失败: {{error}}",
-    "exportSuccess": "MBR已导出到: {{path}}",
+    "exportFailed": "导出 MBR 失败: {{error}}",
+    "exportSuccess": "MBR 已导出到: {{path}}",
     "flashComplete": "固件烧写完成",
     "flashControl": {
       "exportFormat": "导出格式",
-      "exportMbr": "导出MBR",
-      "exportTitle": "导出MBR",
+      "exportMbr": "导出 MBR",
+      "exportTitle": "导出 MBR",
       "flashing": "烧录中...",
       "formatBinary": "二进制文件",
-      "formatJson": "JSON文件",
-      "includeCopies": "包含所有MBR副本",
+      "formatJson": "JSON 文件",
+      "includeCopies": "包含所有 MBR 副本",
       "includePartitions": "包含分区信息",
       "logTitle": "日志",
       "startFlash": "开始烧写",
@@ -975,9 +975,9 @@
     },
     "flashFailed": "烧写失败: {{error}}",
     "imageLoaded": "固件加载成功: {{path}} (大小: {{size}})",
-    "loadFailed": "加载MBR文件失败: {{error}}",
-    "mbrNotFound": "固件中未找到MBR数据",
-    "mbrPartitions": "MBR分区数: {{count}}",
+    "loadFailed": "加载 MBR 文件失败: {{error}}",
+    "mbrNotFound": "固件中未找到 MBR 数据",
+    "mbrPartitions": "MBR 分区数: {{count}}",
     "movePartitionFailed": "移动分区失败",
     "noDeviceOrImage": "请先选择设备并加载固件文件",
     "partitionAdded": "分区已添加: {{name}}",
@@ -999,7 +999,7 @@
       "namePlaceholder": "输入分区名称",
       "noMbr": "请先加载固件文件以获取 MBR 信息",
       "partitionCount": "分区数",
-      "reloadMbr": "重新加载MBR",
+      "reloadMbr": "重新加载 MBR",
       "sectors": "扇区数",
       "sectorsAlign": "扇区对齐",
       "selectFile": "选择文件...",
@@ -1045,7 +1045,7 @@
       "latest": "已是最新版本",
       "title": "软件更新"
     },
-    "usbBackend": "USB驱动",
+    "usbBackend": "USB 驱动",
     "verifyDownload": "验证下载镜像"
   },
   "sidebar": {
@@ -1106,7 +1106,7 @@
   },
   "tools": {
     "adbExplorer": {
-      "description": "通过ADB浏览和管理设备上的文件",
+      "description": "通过 ADB 浏览和管理设备上的文件",
       "name": "ADB 文件浏览"
     },
     "efelGui": {
@@ -1115,7 +1115,7 @@
     },
     "firmwareFlash": {
       "description": "将 Allwinner 格式固件镜像烧写到开发板",
-      "name": "FEL固件烧写"
+      "name": "FEL 固件烧写"
     },
     "firmwareLoader": {
       "description": "加载和解析 Allwinner 格式固件镜像",
