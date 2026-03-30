@@ -6,7 +6,7 @@
 
 <img width="1282" height="912" alt="image" src="https://github.com/user-attachments/assets/e193f6a5-51a8-474d-97a9-bf7173966edd" />
 
-> Note: This repo is for releases only — it hosts downloadable builds and the i18n profile. The source code is not publicly available (yet). For bug reports and feature requests, please use the [Issues](https://github.com/YuzukiTsuru/OpenixSuit/issues) tab.
+> Note: This repo is for releases only — it hosts downloadable builds and the i18n profile. The source code is not publicly available (yet). But the prompt is available for vibe. For bug reports and feature requests, please use the [Issues](https://github.com/YuzukiTsuru/OpenixSuit/issues) tab.
 
 ## Downloads
 
