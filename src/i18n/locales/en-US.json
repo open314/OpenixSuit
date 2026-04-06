@@ -211,6 +211,10 @@
       "message": "Current device mode does not support this operation.\n\nPlease ensure device is in correct mode (FEL or FES mode).",
       "title": "Invalid Device Mode"
     },
+    "protocol": {
+      "message": "Device communication lost. The device may have been disconnected.",
+      "title": "Protocol Error"
+    },
     "timeout": {
       "message": "Operation timeout, please check device connection",
       "title": "Operation Timeout"
@@ -555,6 +559,7 @@
     },
     "flashComplete": "Flash complete",
     "flashFailed": "Flash failed: {{error}}",
+    "flashFailedTitle": "Flash Failed",
     "flashMode": "Flash mode: {{mode}}",
     "noDevicesFound": "No flashable devices found",
     "partitionDeselected": "Deselected partition: {{name}}",

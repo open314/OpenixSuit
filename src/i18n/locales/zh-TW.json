@@ -211,6 +211,10 @@
       "message": "裝置目前模式不支援此操作。\n\n請確保裝置處於正確的模式（FEL 或 FES 模式）。",
       "title": "裝置模式錯誤"
     },
+    "protocol": {
+      "message": "裝置通訊中斷，裝置可能已斷開連接。",
+      "title": "協議錯誤"
+    },
     "timeout": {
       "message": "操作逾時，請檢查裝置連線",
       "title": "操作逾時"
@@ -549,6 +553,7 @@
     },
     "flashComplete": "燒錄完成",
     "flashFailed": "燒錄失敗: {{error}}",
+    "flashFailedTitle": "燒寫失敗",
     "flashMode": "燒錄模式: {{mode}}",
     "noDevicesFound": "未發現可燒錄裝置",
     "partitionDeselected": "已取消選擇分割區: {{name}}",

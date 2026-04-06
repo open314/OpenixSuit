@@ -210,6 +210,10 @@
       "message": "设备当前模式不支持此操作。\n\n请确保设备处于正确的模式 (FEL 或 FES 模式)。",
       "title": "设备模式错误"
     },
+    "protocol": {
+      "message": "设备通信中断，设备可能已断开连接。",
+      "title": "协议错误"
+    },
     "timeout": {
       "message": "操作超时, 请检查设备连接",
       "title": "操作超时"
@@ -548,7 +552,8 @@
     },
     "flashComplete": "烧录完成",
     "flashFailed": "烧写失败: {{error}}",
-    "flashMode": "烧写模式: {{mode}}",
+    "flashFailedTitle": "烧写失败",
+    "flashMode": "",
     "noDevicesFound": "未发现可烧录设备",
     "partitionDeselected": "已取消选择分区: {{name}}",
     "partitionSelected": "已选择分区: {{name}}",

@@ -211,6 +211,10 @@
       "message": "現在のデバイスモードではこの操作はサポートされていません。\n\nデバイスが正しいモード（FEL または FES モード）にあることを確認してください。",
       "title": "デバイスモードエラー"
     },
+    "protocol": {
+      "message": "デバイスとの通信が中断されました。デバイスが切断された可能性があります。",
+      "title": "プロトコルエラー"
+    },
     "timeout": {
       "message": "操作がタイムアウトしました。デバイスの接続を確認してください",
       "title": "操作タイムアウト"
@@ -549,6 +553,7 @@
     },
     "flashComplete": "書き込み完了",
     "flashFailed": "書き込みに失敗しました: {{error}}",
+    "flashFailedTitle": "書き込み失敗",
     "flashMode": "書き込みモード: {{mode}}",
     "noDevicesFound": "書き込み可能なデバイスが見つかりません",
     "partitionDeselected": "パーティションの選択を解除: {{name}}",
