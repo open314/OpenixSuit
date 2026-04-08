@@ -95,6 +95,58 @@
     "statusReady": "Ready",
     "statusUnknown": "Unknown"
   },
+  "dramTunning": {
+    "chipSelect": "Chip",
+    "deviceSelect": "Select Device",
+    "firmwareSelect": "Select Firmware",
+    "loadDefaults": "Load Defaults",
+    "log": {
+      "fesNotFound": "FES binary not found in firmware",
+      "firmwareLoaded": "Firmware loaded. ret_addr=0x{{ret}}, run_addr=0x{{run}}",
+      "loadFailed": "Failed to load firmware: {{error}}",
+      "loadingFirmware": "Loading firmware: {{path}}",
+      "noLog": "No logs yet",
+      "startTest": "Starting DRAM test...",
+      "testError": "DRAM test error: {{error}}",
+      "testFailed": "DRAM test failed. init_flag={{flag}}",
+      "testSuccess": "DRAM test succeeded! init_flag={{flag}}",
+      "title": "Log"
+    },
+    "logMessages": {
+      "adbRebootFailed": "Reboot failed: {{error}}",
+      "adbRebootFel": "Rebooting to FEL mode...",
+      "contextInitialized": "Context initialized: {{name}} [{{mode}}]",
+      "deviceNotReady": "Device not ready for context initialization",
+      "initFailed": "Initialization failed: {{error}}",
+      "waitingFel": "Waiting for device to enter FEL..."
+    },
+    "noDevice": "No devices",
+    "openFirmware": "Open Firmware",
+    "paramConfig": "DRAM Parameters",
+    "popup": {
+      "initFailedMsg": "Failed to initialize device context: {{error}}",
+      "initFailedTitle": "Initialization Failed"
+    },
+    "rawParams": "Raw Parameters (Hex)",
+    "reset": "Reset",
+    "result": {
+      "error": "Error",
+      "failed": "DRAM Test Failed",
+      "input": "Input",
+      "output": "Output",
+      "paramName": "Parameter",
+      "success": "DRAM Test Passed"
+    },
+    "runTest": "Run DRAM Test",
+    "scanDevice": "Scan Devices",
+    "selectChip": "-- Select Chip --",
+    "status": {
+      "notReady": "Not Ready",
+      "ready": "Ready"
+    },
+    "testControl": "Test",
+    "testing": "Testing..."
+  },
   "efelGui": {
     "deviceSelect": "Device Selection",
     "execJump": {
@@ -116,13 +168,13 @@
     "logMessages": {
       "adbRebootFailed": "Failed to reboot device via ADB",
       "adbRebootFel": "Rebooting device to FEL mode via ADB",
-      "adbScanFailed": "",
+      "contextInitialized": "Context initialized: {{name}} [{{mode}}]",
+      "deviceNotReady": "Device not ready for context initialization",
       "devicesFound_one": "Found {{count}} devices",
       "devicesFound_other": "Found {{count}} devices",
       "disasmFailed": "Disassembly failed: {{error}}",
       "disasmWarning": "Disassembly warning: {{error}}",
       "dramInitFailed": "DRAM initialization failed",
-      "efexScanFailed": "",
       "execFailed": "Execution failed: {{error}}",
       "execJump": "Execute jump: {{addr}}",
       "execSuccess": "Execution success",
@@ -132,20 +184,16 @@
       "initComplete": "Initialization complete",
       "initFailed": "Initialization failed: {{error}}",
       "initMemory": "Initializing memory...",
-      "initTimeout": "Initialization timeout",
       "invalidAddress": "Invalid address",
       "invalidLength": "Invalid length (1-65536)",
       "loadImageFailed": "Failed to load image file",
       "noDataToSave": "No data to save",
-      "noDeviceFound": "",
       "readFailed": "Read failed: {{error}}",
       "readMemory": "Read memory: {{addr}}, length: {{len}}",
       "readSuccess": "Read success: {{len}} bytes",
       "savedTo": "Saved to: {{path}}",
       "saveFailed": "Save failed: {{error}}",
-      "scanning": "",
       "selectDeviceFirst": "Please select a device first",
-      "selected": "Selected: {{name}} [{{mode}}]",
       "selectFileFirst": "Please select a file first",
       "selectImageFirst": "Please select an image file first",
       "waitingFel": "Waiting for device to enter FEL mode...",
@@ -178,20 +226,14 @@
     },
     "noDevice": "No Device Found",
     "popup": {
-      "initTimeoutMsg": "Device initialization timeout, please check device connection",
-      "timeoutMsg": "Device response timeout, please check device connection or reselect device",
-      "timeoutTitle": "Operation Timeout",
-      "unsupportedMsg": "Current device mode is \"{{mode}}\", only FEL mode is supported",
-      "unsupportedTitle": "Unsupported Mode"
+      "initFailedMsg": "Failed to initialize device context: {{error}}",
+      "initFailedTitle": "Initialization Failed"
     },
     "scanDevice": "Scan Devices",
     "status": {
-      "adb": "",
-      "connecting": "",
-      "ready": "",
-      "timeout": "",
-      "unknown": "Unknown",
-      "unsupported": ""
+      "adb": "ADB",
+      "connecting": "Connecting...",
+      "ready": "Ready"
     }
   },
   "errorHandler": {

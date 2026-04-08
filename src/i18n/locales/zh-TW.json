@@ -95,6 +95,58 @@
     "statusReady": "就緒",
     "statusUnknown": "未知"
   },
+  "dramTunning": {
+    "chipSelect": "晶片",
+    "deviceSelect": "選擇裝置",
+    "firmwareSelect": "選擇韌體",
+    "loadDefaults": "載入預設值",
+    "log": {
+      "fesNotFound": "韌體中未找到 FES 二進位檔案",
+      "firmwareLoaded": "韌體已載入。ret_addr=0x{{ret}}, run_addr=0x{{run}}",
+      "loadFailed": "載入韌體失敗: {{error}}",
+      "loadingFirmware": "載入韌體: {{path}}",
+      "noLog": "暫無日誌",
+      "startTest": "開始 DRAM 測試...",
+      "testError": "DRAM 測試錯誤: {{error}}",
+      "testFailed": "DRAM 測試失敗。init_flag={{flag}}",
+      "testSuccess": "DRAM 測試成功! init_flag={{flag}}",
+      "title": "日誌"
+    },
+    "logMessages": {
+      "adbRebootFailed": "重啟失敗: {{error}}",
+      "adbRebootFel": "正在重啟到 FEL 模式...",
+      "contextInitialized": "上下文已初始化: {{name}} [{{mode}}]",
+      "deviceNotReady": "裝置未就緒，無法初始化上下文",
+      "initFailed": "初始化失敗: {{error}}",
+      "waitingFel": "等待裝置進入 FEL 模式..."
+    },
+    "noDevice": "無裝置",
+    "openFirmware": "開啟韌體",
+    "paramConfig": "DRAM 參數配置",
+    "popup": {
+      "initFailedMsg": "初始化裝置上下文失敗: {{error}}",
+      "initFailedTitle": "初始化失敗"
+    },
+    "rawParams": "Raw 參數 (十六進位)",
+    "reset": "重置",
+    "result": {
+      "error": "錯誤",
+      "failed": "DRAM 測試失敗",
+      "input": "輸入",
+      "output": "輸出",
+      "paramName": "參數",
+      "success": "DRAM 測試通過"
+    },
+    "runTest": "執行 DRAM 測試",
+    "scanDevice": "掃描裝置",
+    "selectChip": "-- 選擇晶片 --",
+    "status": {
+      "notReady": "未就緒",
+      "ready": "就緒"
+    },
+    "testControl": "測試",
+    "testing": "測試中..."
+  },
   "efelGui": {
     "deviceSelect": "裝置選擇",
     "execJump": {
@@ -116,12 +168,12 @@
     "logMessages": {
       "adbRebootFailed": "重新啟動失敗：{{error}}",
       "adbRebootFel": "正在重新啟動到 FEL 模式...",
-      "adbScanFailed": "",
+      "contextInitialized": "上下文已初始化: {{name}} [{{mode}}]",
+      "deviceNotReady": "裝置未就緒，無法初始化上下文",
       "devicesFound_other": "Found {{count}} devices",
       "disasmFailed": "反組譯失敗: {{error}}",
       "disasmWarning": "反組譯警告: {{error}}",
       "dramInitFailed": "DRAM 初始化失敗",
-      "efexScanFailed": "",
       "execFailed": "執行失敗: {{error}}",
       "execJump": "跳躍執行: {{addr}}",
       "execSuccess": "執行成功",
@@ -131,20 +183,16 @@
       "initComplete": "初始化完成",
       "initFailed": "初始化失敗: {{error}}",
       "initMemory": "正在初始化記憶體...",
-      "initTimeout": "初始化逾時",
       "invalidAddress": "無效的位址",
       "invalidLength": "無效的長度 (1-65536)",
       "loadImageFailed": "無法載入映像檔案",
       "noDataToSave": "沒有可儲存的資料",
-      "noDeviceFound": "",
       "readFailed": "讀取失敗: {{error}}",
       "readMemory": "讀取記憶體: {{addr}}，長度: {{len}}",
       "readSuccess": "讀取成功: {{len}} 位元組",
       "savedTo": "已儲存到: {{path}}",
       "saveFailed": "儲存失敗: {{error}}",
-      "scanning": "",
       "selectDeviceFirst": "請先選擇裝置",
-      "selected": "已選擇: {{name}} [{{mode}}]",
       "selectFileFirst": "請先選擇檔案",
       "selectImageFirst": "請先選擇映像檔案",
       "waitingFel": "等待裝置進入 FEL 模式...",
@@ -177,20 +225,14 @@
     },
     "noDevice": "未發現裝置",
     "popup": {
-      "initTimeoutMsg": "裝置初始化逾時，請檢查裝置連線",
-      "timeoutMsg": "裝置回應逾時，請檢查裝置連線或重新選擇裝置",
-      "timeoutTitle": "操作逾時",
-      "unsupportedMsg": "目前裝置模式為 \"{{mode}}\"，僅支援 FEL 模式",
-      "unsupportedTitle": "不支援的模式"
+      "initFailedMsg": "初始化裝置上下文失敗: {{error}}",
+      "initFailedTitle": "初始化失敗"
     },
     "scanDevice": "掃描裝置",
     "status": {
-      "adb": "",
-      "connecting": "",
-      "ready": "",
-      "timeout": "",
-      "unknown": "未知",
-      "unsupported": ""
+      "adb": "ADB",
+      "connecting": "連接中...",
+      "ready": "就緒"
     }
   },
   "errorHandler": {

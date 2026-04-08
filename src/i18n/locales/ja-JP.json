@@ -95,6 +95,58 @@
     "statusReady": "準備完了",
     "statusUnknown": "不明"
   },
+  "dramTunning": {
+    "chipSelect": "チップ",
+    "deviceSelect": "デバイス選択",
+    "firmwareSelect": "ファームウェア選択",
+    "loadDefaults": "デフォルト読込",
+    "log": {
+      "fesNotFound": "ファームウェアにFESバイナリが見つかりません",
+      "firmwareLoaded": "ファームウェア読込完了。ret_addr=0x{{ret}}, run_addr=0x{{run}}",
+      "loadFailed": "ファームウェア読込失敗: {{error}}",
+      "loadingFirmware": "ファームウェア読込中: {{path}}",
+      "noLog": "ログなし",
+      "startTest": "DRAMテスト開始...",
+      "testError": "DRAMテストエラー: {{error}}",
+      "testFailed": "DRAMテスト失敗。init_flag={{flag}}",
+      "testSuccess": "DRAMテスト成功! init_flag={{flag}}",
+      "title": "ログ"
+    },
+    "logMessages": {
+      "adbRebootFailed": "再起動失敗: {{error}}",
+      "adbRebootFel": "FELモードに再起動中...",
+      "contextInitialized": "コンテキスト初期化完了: {{name}} [{{mode}}]",
+      "deviceNotReady": "デバイスが準備できていません",
+      "initFailed": "初期化失敗: {{error}}",
+      "waitingFel": "FELモードへの移行を待機中..."
+    },
+    "noDevice": "デバイスなし",
+    "openFirmware": "ファームウェアを開く",
+    "paramConfig": "DRAMパラメータ",
+    "popup": {
+      "initFailedMsg": "デバイスコンテキストの初期化失敗: {{error}}",
+      "initFailedTitle": "初期化失敗"
+    },
+    "rawParams": "Rawパラメータ (16進数)",
+    "reset": "リセット",
+    "result": {
+      "error": "エラー",
+      "failed": "DRAMテスト失敗",
+      "input": "入力",
+      "output": "出力",
+      "paramName": "パラメータ",
+      "success": "DRAMテスト合格"
+    },
+    "runTest": "DRAMテスト実行",
+    "scanDevice": "デバイススキャン",
+    "selectChip": "-- チップ選択 --",
+    "status": {
+      "notReady": "未準備",
+      "ready": "準備完了"
+    },
+    "testControl": "テスト",
+    "testing": "テスト中..."
+  },
   "efelGui": {
     "deviceSelect": "デバイス選択",
     "execJump": {
@@ -116,12 +168,12 @@
     "logMessages": {
       "adbRebootFailed": "再起動に失敗しました: {{error}}",
       "adbRebootFel": "FEL モードに再起動中...",
-      "adbScanFailed": "",
+      "contextInitialized": "コンテキスト初期化完了: {{name}} [{{mode}}]",
+      "deviceNotReady": "デバイスが準備できていません",
       "devicesFound_other": "Found {{count}} devices",
       "disasmFailed": "逆アセンブルに失敗しました: {{error}}",
       "disasmWarning": "逆アセンブル警告: {{error}}",
       "dramInitFailed": "DRAM 初期化に失敗しました",
-      "efexScanFailed": "",
       "execFailed": "実行に失敗しました: {{error}}",
       "execJump": "ジャンプ実行: {{addr}}",
       "execSuccess": "実行成功",
@@ -131,20 +183,16 @@
       "initComplete": "初期化完了",
       "initFailed": "初期化に失敗しました: {{error}}",
       "initMemory": "メモリを初期化中...",
-      "initTimeout": "初期化タイムアウト",
       "invalidAddress": "無効なアドレス",
       "invalidLength": "無効な長さ (1-65536)",
       "loadImageFailed": "イメージファイルの読み込みに失敗しました",
       "noDataToSave": "保存するデータがありません",
-      "noDeviceFound": "",
       "readFailed": "読み取りに失敗しました: {{error}}",
       "readMemory": "メモリを読み取り: {{addr}}、長さ: {{len}}",
       "readSuccess": "読み取り成功: {{len}} バイト",
       "savedTo": "保存先: {{path}}",
       "saveFailed": "保存に失敗しました: {{error}}",
-      "scanning": "",
       "selectDeviceFirst": "先にデバイスを選択してください",
-      "selected": "選択済み: {{name}} [{{mode}}]",
       "selectFileFirst": "先にファイルを選択してください",
       "selectImageFirst": "先にイメージファイルを選択してください",
       "waitingFel": "デバイスが FEL モードに入るのを待機中...",
@@ -177,20 +225,14 @@
     },
     "noDevice": "デバイスが見つかりません",
     "popup": {
-      "initTimeoutMsg": "デバイスの初期化がタイムアウトしました。デバイスの接続を確認してください",
-      "timeoutMsg": "デバイスの応答がタイムアウトしました。デバイスの接続を確認するか、デバイスを選択し直してください",
-      "timeoutTitle": "操作タイムアウト",
-      "unsupportedMsg": "現在のデバイスモードは \"{{mode}}\" です。FEL モードのみサポートされています",
-      "unsupportedTitle": "サポートされていないモード"
+      "initFailedMsg": "デバイスコンテキストの初期化失敗: {{error}}",
+      "initFailedTitle": "初期化失敗"
     },
     "scanDevice": "デバイスをスキャン",
     "status": {
-      "adb": "",
-      "connecting": "",
-      "ready": "",
-      "timeout": "",
-      "unknown": "不明",
-      "unsupported": ""
+      "adb": "ADB",
+      "connecting": "接続中...",
+      "ready": "準備完了"
     }
   },
   "errorHandler": {

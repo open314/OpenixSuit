@@ -95,6 +95,58 @@
     "statusReady": "就绪",
     "statusUnknown": "未知"
   },
+  "dramTunning": {
+    "chipSelect": "芯片",
+    "deviceSelect": "选择设备",
+    "firmwareSelect": "选择固件",
+    "loadDefaults": "加载默认值",
+    "log": {
+      "fesNotFound": "固件中未找到 FES 二进制文件",
+      "firmwareLoaded": "固件已加载。ret_addr=0x{{ret}}, run_addr=0x{{run}}",
+      "loadFailed": "加载固件失败: {{error}}",
+      "loadingFirmware": "加载固件: {{path}}",
+      "noLog": "暂无日志",
+      "startTest": "开始 DRAM 测试...",
+      "testError": "DRAM 测试错误: {{error}}",
+      "testFailed": "DRAM 测试失败。init_flag={{flag}}",
+      "testSuccess": "DRAM 测试成功! init_flag={{flag}}",
+      "title": "日志"
+    },
+    "logMessages": {
+      "adbRebootFailed": "重启失败: {{error}}",
+      "adbRebootFel": "正在重启到 FEL 模式...",
+      "contextInitialized": "上下文已初始化: {{name}} [{{mode}}]",
+      "deviceNotReady": "设备未就绪，无法初始化上下文",
+      "initFailed": "初始化失败: {{error}}",
+      "waitingFel": "等待设备进入 FEL 模式..."
+    },
+    "noDevice": "无设备",
+    "openFirmware": "打开固件",
+    "paramConfig": "DRAM 参数配置",
+    "popup": {
+      "initFailedMsg": "初始化设备上下文失败: {{error}}",
+      "initFailedTitle": "初始化失败"
+    },
+    "rawParams": "Raw 参数 (十六进制)",
+    "reset": "重置",
+    "result": {
+      "error": "错误",
+      "failed": "DRAM 测试失败",
+      "input": "输入",
+      "output": "输出",
+      "paramName": "参数",
+      "success": "DRAM 测试通过"
+    },
+    "runTest": "执行 DRAM 测试",
+    "scanDevice": "扫描设备",
+    "selectChip": "-- 选择芯片 --",
+    "status": {
+      "notReady": "未就绪",
+      "ready": "就绪"
+    },
+    "testControl": "测试",
+    "testing": "测试中..."
+  },
   "efelGui": {
     "deviceSelect": "设备选择",
     "execJump": {
@@ -116,12 +168,12 @@
     "logMessages": {
       "adbRebootFailed": "重启失败：{{error}}",
       "adbRebootFel": "正在重启到 FEL 模式...",
-      "adbScanFailed": "ADB scan failed: {{error}}",
+      "contextInitialized": "上下文已初始化: {{name}} [{{mode}}]",
+      "deviceNotReady": "设备未就绪，无法初始化上下文",
       "devicesFound": "Found {{count}} devices",
       "disasmFailed": "反汇编失败: {{error}}",
       "disasmWarning": "反汇编警告: {{error}}",
       "dramInitFailed": "DRAM 初始化失败",
-      "efexScanFailed": "EFEX scan failed: {{error}}",
       "execFailed": "执行失败: {{error}}",
       "execJump": "跳转执行: {{addr}}",
       "execSuccess": "执行成功",
@@ -131,20 +183,16 @@
       "initComplete": "初始化完成",
       "initFailed": "初始化失败: {{error}}",
       "initMemory": "正在初始化内存...",
-      "initTimeout": "初始化超时",
       "invalidAddress": "无效的地址",
       "invalidLength": "无效的长度 (1-65536)",
       "loadImageFailed": "无法加载镜像文件",
       "noDataToSave": "没有可保存的数据",
-      "noDeviceFound": "No devices found",
       "readFailed": "读取失败: {{error}}",
       "readMemory": "读取内存: {{addr}}, 长度: {{len}}",
       "readSuccess": "读取成功: {{len}} 字节",
       "savedTo": "已保存到: {{path}}",
       "saveFailed": "保存失败: {{error}}",
-      "scanning": "Scanning devices...",
       "selectDeviceFirst": "请先选择设备",
-      "selected": "已选择: {{name}} [{{mode}}]",
       "selectFileFirst": "请先选择文件",
       "selectImageFirst": "请先选择镜像文件",
       "waitingFel": "等待设备进入 FEL 模式...",
@@ -177,20 +225,14 @@
     },
     "noDevice": "未发现设备",
     "popup": {
-      "initTimeoutMsg": "设备初始化超时, 请检查设备连接",
-      "timeoutMsg": "设备响应超时, 请检查设备连接或重新选择设备",
-      "timeoutTitle": "操作超时",
-      "unsupportedMsg": "当前设备模式为 \"{{mode}}\", 仅支持 FEL 模式",
-      "unsupportedTitle": "不支持的模式"
+      "initFailedMsg": "初始化设备上下文失败: {{error}}",
+      "initFailedTitle": "初始化失败"
     },
     "scanDevice": "扫描设备",
     "status": {
       "adb": "ADB",
-      "connecting": "Connecting...",
-      "ready": "Ready",
-      "timeout": "Timeout",
-      "unknown": "未知",
-      "unsupported": "Unsupported"
+      "connecting": "连接中...",
+      "ready": "就绪"
     }
   },
   "errorHandler": {
