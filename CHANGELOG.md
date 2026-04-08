@@ -1,3 +1,20 @@
+## OpenixSuit v0.4.3
+
+### Changes
+- fix: add conditional compilation for Windows-only taskbar features (95df5fc)
+- feat: update version to 0.4.3 and remove DRAM tuning localization (6fa31c2)
+- Fix initial device scan and quiet no-device logs (fb4e26f)
+- feat: add is_flash_task_active function to manage flash task state (6899e19)
+- feat: update dependencies and add taskbar progress indicator support (4069b07)
+- fix download links and dram tunning context (6b146f2)
+- disabled dram tunning panel in v0.4.x (ea5d324)
+- i18n: complete missing translations for DRAMTunning and EFELGui (ce704e1)
+- refactor: create dedicated useDRAMContext hook for DRAMTunning (3a7ad1f)
+- Merge branch 'main' into dramtunning (d3648ca)
+- refactor(DRAMTunning): redesign UI with left-right split layout (85357a5)
+- sync master (342bf01)
+- feat(DRAMTunning): Implement DRAM tuning components and hooks (99a4120)
+
 ## OpenixSuit v0.4.2
 
 ### Changes
