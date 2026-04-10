@@ -1,3 +1,9 @@
+## OpenixSuit v0.4.5
+
+### Changes
+- fix: update version to 0.4.5 in package.json, Cargo.toml, and tauri.conf.json (6541d42)
+- fix: correct GPIO DRV register parsing for V1 vs V2+ pinctrl (f2ae868)
+
 ## OpenixSuit v0.4.4
 
 ### Changes
