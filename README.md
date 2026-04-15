@@ -1,3 +1,6 @@
+<img width="855" height="749" alt="388f0cebb06fe4bf424b7d9dfd5d66d7" src="https://github.com/user-attachments/assets/6cc5d49d-6953-471f-99d4-477cb1bce4d3" />
+
+
 <div align="center"><img width="80" src="https://github.com/user-attachments/assets/7ef2e56f-8d86-4c86-b9e0-776838259b1b" alt="OpenixSuit logo"></div>
 <h1 align="center"><b>OpenixSuit</b></h1>
 <p align="center">
